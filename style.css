@@ -1,0 +1,116 @@
+
+
+.very-sus{
+    background-image: url(wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.positon {
+    padding: 10px;
+    display: flex;
+    align-items: middle;
+    padding-left: 100px;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url(wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807\ copy.avif) top center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  @media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+  
+  #hero:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #hero .hero-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    margin: 30px 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  }
+  
+  #hero p {
+    margin-bottom: 50px;
+    font-size: 24px;
+  }
+  
+  @media (max-width: 768px) {
+    #hero p {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }
+
+.text {
+    background: #FFFFFF;
+    background: linear-gradient(to right, #FFFFFF 0%, #000000 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subscribe{
+    background-image: url(male.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.s{
+  height: 370px;
+}
+
+.custom {
+  height: 150px;
+  width: 160px;
+}
+
+.custom-n {
+  margin-top: 130px;
+}
+
+.custom-i {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: black;
+}
+
+.custom-i:focus {
+  border-color: gray;
+  outline: 1px dotted #000
+}
